@@ -160,10 +160,10 @@ TrapGenerator.prototype.generate_random_list = function(in_length, out_length){
 
 TrapGenerator.prototype.generate = function(length){
 	var output_list = [];
-
-	var trigger_items = this.generate_random_list(this.trigger.length, length); //http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n
-	var element_items = this.generate_random_list(this.element.length, 2 * length); //http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n
-	var attack_items  = this.generate_random_list(this.attack.length,  2 * length); //http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n
+	var trigger_items = this.generate_random_list(this.trigger.length, length); 	
+	var element_items = this.generate_random_list(this.element.length, 2 * length); 	
+	var attack_items  = this.generate_random_list(this.attack.length,  2 * length);
+//http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n
 
 	var i; 
 	for(i = 0; i < length; i++){
